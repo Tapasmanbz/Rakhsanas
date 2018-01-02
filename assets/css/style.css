@@ -1,0 +1,150 @@
+/* .view {
+background: url("https://mdbootstrap.com/img/Photos/Others/img (50).jpg")no-repeat center center;
+background-size: cover;
+} */
+
+.intro-2{
+  position: static;
+  background: url("../images/chocolate-candy.jpg") no-repeat center center;
+  background-size: cover;
+  width:100%;
+}
+
+.app-logo{
+  width: 70px;
+  height: 67px;
+}
+
+.navbar .btn-group .dropdown-menu a:hover {
+  color: #ffffff;
+  background: #4285f4db;
+  font-weight: 500;
+}
+.navbar .btn-group .dropdown-menu a:active {
+  color: #fff !important;
+}
+
+.cart{
+  margin-right: 20px;
+}
+
+.features{
+  float: right;
+  display: inline-block;
+  background: url("../images/count.jpg") no-repeat;
+  background-size: cover;
+  border-radius: 100px 5px 100px;
+  font-family: "cursive", serif;
+  font-size: 36px;
+}
+
+.quote{
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 500;
+  text-shadow: 3px 2px grey;
+}
+
+input[type="email"]:focus {
+  background-color : lightyellow;
+}
+
+input[type="email"]::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  text-align: center;
+  color: white;
+  opacity: 1; /* Firefox */
+}
+input[type="email"]:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  text-align: center;
+  color: white;
+}
+input[type="email"]::-ms-input-placeholder { /* Microsoft Edge */
+  text-align: center;
+  color: white;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display:inline-grid;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 5px 10px 20px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 5px 10px;
+  margin: 2px;
+}
+
+.service,.customers{
+  background-color: #d3d3d321;
+}
+
+.icon-big-container{
+  width:60px;
+  height:auto;
+}
+
+.popular-items{
+  background: url("../images/cake-images.jpeg") no-repeat center center;
+  background-size: cover;
+  backface-visibility: hidden;
+  font-weight: 400;
+
+}
+
+.cake-image{
+  width:200px;
+  height:auto;
+}
+
+h2{
+  font family: "cursive", serif;
+  font-weight: 400;
+  -webkit-text-stroke: 0.3px white;
+}
+
+.about{
+  background-color: #565a61;
+  border-radius: 0px 0px 30px 30px;
+}
+
+footer{
+  background-color: #2f3032;
+}
+
+/* equal card height */
+.row-equal > div[class*='col-'] {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.row-equal .card {
+  width: 100%;
+  height: auto;
+}
+
+/* ensure equal card height inside carousel */
+.carousel-inner>.row-equal.active,
+.carousel-inner>.row-equal.next,
+.carousel-inner>.row-equal.prev {
+  display: flex;
+}
+
+/* prevent flicker during transition */
+.carousel-inner>.row-equal.active.left,
+.carousel-inner>.row-equal.active.right {
+  opacity: 0.5;
+  display: flex;
+}
+
+/* control image height */
+.card-img-top-250 {
+  max-height: 250px;
+  overflow:hidden;
+}
